@@ -4,7 +4,215 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Github</title>
+    <title>Project MitraD,PopArt</title>
+    <style>
+      .project {
+        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+        background: radial-gradient(
+          circle at 7.5% 24%,
+          rgb(237, 161, 193) 10%,
+          rgb(250, 178, 172) 25.5%,
+          rgb(190, 228, 210) 62.3%,
+          rgb(215, 248, 247) 93.8%
+        );
+        border-radius: 10px;
+        color: #fff;
+        width: 50%;
+        padding: 40px 70px;
+        margin: 40px auto;
+        display: block;
+      }
+      body {
+        background-color: #f9f6f3;
+      }
+      ul {
+        display: block;
+        text-align: right;
+        font-size: 22px;
+        line-height: 34px;
+        padding: 0 1px;
+        margin: 0 auto 10px;
+        color: #f70776;
+        border-radius: 25px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .basic {
+        color: #f70776;
+      }
+      li:hover {
+        color: #680747;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      li {
+        font-weight: bolder;
+        padding: 10px;
+        display: inline-block;
+      }
+
+      h1 {
+        box-shadow: rgba(0, 0, 0, 0.2);
+        border: 2px solid #680747;
+        padding: 5px 0 15px;
+        border-radius: 12px;
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-weight: bold;
+        margin: 0 auto;
+        max-width: 400px;
+        color: #680747;
+        transition: all 200ms ease-in-out;
+      }
+      .heyy {
+        color: red;
+      }
+      h1:hover {
+        background: #ffb5b5;
+      }
+
+      p {
+        color: #680747;
+        font-family: -apple-system, BlinkMacSystemFont, San Francisco,
+          Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Segoe UI, Arial,
+          sans-serif;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.5;
+        font-size: 30px;
+      }
+
+      img {
+        padding: 0 auto;
+        display: block;
+        margin: 50px auto 0 auto;
+        max-width: 300%;
+        border: 10px solid #680747;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.2);
+      }
+
+      h3 {
+        color: #680747;
+        text-align: center;
+        margin: 0 auto 5px;
+        display: block;
+        font-family: "Courier New", Courier, monospace;
+      }
+      h4 {
+        color: #680747;
+        text-align: center;
+        display: block;
+        font-family: "Courier New", Courier, monospace;
+      }
+      h5 {
+        font-size: 1.17em;
+        font-weight: bold;
+        color: #680747;
+        text-align: center;
+        margin: 0 auto 5px;
+        display: block;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      button {
+        text-align: center;
+        display: block;
+        margin: 0 auto 30px auto;
+        color: beige;
+        background: #f70776;
+        font-size: 20px;
+        padding: 15px 15px;
+        border: 10px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: beige;
+        color: #f70776;
+        cursor: pointer;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="project">
+      <ul>
+        <a href="https://www.instagram.com/mitra_deilami/" target="blank">
+          <li class="basic">contact us</li></a
+        >
+        <li>about me</li>
+        <li>blog</li>
+        <li>portfolio</li>
+      </ul>
+      <hr />
+      <br />
+
+      <h1>
+        What is
+        <strong
+          ><em> <span class="heyy">Pop Art</span> </em></strong
+        >
+        ?🤔
+      </h1>
+      <br />
+      <hr />
+      <img
+        src="
+    https://tavinhoneyghan.files.wordpress.com/2014/01/screen-shot-2014-01-23-at-14-04-11.png"
+        width="500"
+        px
+      />
+
+      <p>
+        Pop art is an art movement that emerged in the United Kingdom and the
+        United States during the mid- to late-1950s. The movement presented a
+        challenge to traditions of fine art by including imagery from popular
+        and mass culture, such as advertising, comic books and mundane
+        mass-produced objects. One of its aims is to use images of popular (as
+        opposed to elitist) culture in art, emphasizing the banal or kitschy
+        elements of any culture, most often through the use of irony. It is also
+        associated with the artists' use of mechanical means of reproduction or
+        rendering techniques. In pop art, material is sometimes visually removed
+        from its known context, isolated, or combined with unrelated material.
+      </p>
+
+      <a href="https://en.wikipedia.org/wiki/Pop_art" target="-blank">
+        <h3>more info on Wikipedia</h3>
+      </a>
+      <br />
+      <a
+        href="https://artsandculture.google.com/entity/pop-art/m0q4mn?categoryId=art-movements"
+        target="-blank"
+      >
+        <h5>more pictures on Google Arts</h5>
+      </a>
+      <br />
+      <br />
+      <button>click to order</button>
+      <hr />
+      <h4>this page was build by Mitra Deilami👩🏻‍💻</h4>
+    </div>
+
+    <script>
+      function order() {
+        let name = prompt("what is your name?");
+        let age = prompt("how old are you?");
+        if (age < 15) {
+          alert("Sorry, we cannot accept your order " + name + "😟.");
+          let button = document.querySelector("button");
+          button.innerHTML = "click to order";
+        } else {
+          alert("Welcome!, please complate your order");
+          let email = prompt("what is your email address?");
+          alert("Thank you " + name + "!" + " ,will be in touch by email!😃");
+
+          let button = document.querySelector("button");
+          button.innerHTML = "your order was recorded!😊";
+        }
+      }
+
+      let orderbutton = document.querySelector("button");
+      orderbutton.addEventListener("click", order);
+    </script>
+  </body>
 </html>
